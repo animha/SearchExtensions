@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>OTG.NinjaNye.SearchExtensions</id>
+    <version>3.0.1.0</version>
+    <title>OTG.NinjaNye.SearchExtensions</title>
+    <authors>OTG Informatica srl</authors>
+    <owners>ninjanye</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>
+      OTG.NinjaNye.SearchExtensions
+    </summary>
+    <description>
+      OTG.NinjaNye.SearchExtensions
+    </description>
+    <tags>otg ninjanye searchextensions</tags>
+    <dependencies>
+	<group targetFramework="netstandard10">	
+        <dependency id="NETStandard.Library" version="1.6.1"/>
+        <dependency id="System.Linq.Queryable" version="4.3.0"/>
+      </group>
+      <group targetFramework="net45">
+        <dependency id="System.Linq.Queryable" version="4.3.0"/>
+      </group>
+    </dependencies>
+    <references>
+      <group targetFramework="netstandard10">
+        <reference file="NinjaNye.SearchExtensions.dll" />
+      </group>
+    </references>
+  </metadata>
+  <files>
+    <file src=".\Releases\OTG.NinjaNye.SearchExtensions\netstandard10\NinjaNye.SearchExtensions.dll" target="ref\netstandard10" />
+    <file src=".\Releases\OTG.NinjaNye.SearchExtensions\netstandard10\NinjaNye.SearchExtensions.dll" target="lib\netstandard10" />    
+	
+	<file src=".\Releases\OTG.NinjaNye.SearchExtensions\net45\NinjaNye.SearchExtensions.dll" target="ref\net45" />
+    <file src=".\Releases\OTG.NinjaNye.SearchExtensions\net45\NinjaNye.SearchExtensions.dll" target="lib\net45" />    
+  </files>
+</package>
